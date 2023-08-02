@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Hi+Melody&family=Ysabeau+Office:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Hi+Melody&family=Ysabeau+Office:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: "hi melody";
+  font-weight: 200;
+  color: #31383f;
+  max-width: 2000px;
+  margin: auto;
+  font-size: 100%;
+}
+
+hr {
+  border-top: 1px solid #31383f;
+  width: 100%;
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #dd8ea4;
+}
+
+#menu a:hover {
+  color: #8ca9d3;
+}
+
+.topnav-menu,
+h1 {
+  font-family: "chango";
+}
+
+#about-sec,
+.topnav-menu {
+  background-color: #f2e9eb;
+}
+
+.about-work {
+  background-color: #fedd89;
+}
+/*media quries*/
+@media only screen and (max-width: 393px) {
+  #about-sec,
+  .topnav-menu,
+  .about-work {
+    margin: 0% 1%;
+    text-align: center;
+    height: 200px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #menu > li {
+    padding: 10px;
+  }
+  #work-topic {
+    height: 50px;
+  }
+  .work-container {
+    height: 200px;
+  }
+}
