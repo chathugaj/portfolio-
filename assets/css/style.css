@@ -39,6 +39,9 @@ a {
 h1 {
   font-family: "chango";
 }
+h2 {
+  font-size: 250%;
+}
 
 #about-sec,
 .topnav-menu {
@@ -47,6 +50,23 @@ h1 {
 
 .about-work {
   background-color: #fedd89;
+}
+
+footer {
+  height: 100px;
+  background-color: #8ca9d3;
+}
+.social-networks {
+  text-align: center;
+  padding: 20px;
+}
+.social-networks > li {
+  display: inline;
+}
+.social-networks i {
+  color: #fedd89;
+  font-size: 160%;
+  padding: 5px;
 }
 /*media quries*/
 @media only screen and (max-width: 393px) {
@@ -70,5 +90,9 @@ h1 {
   }
   .work-container {
     height: 200px;
+  }
+
+  footer {
+    margin: 0% 1%;
   }
 }
