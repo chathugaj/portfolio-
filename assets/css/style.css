@@ -25,20 +25,23 @@ hr {
 a {
   text-decoration: none;
 }
-
+/**navigation**/
 #menu a {
   text-decoration: none;
   color: #dd8ea4;
+  text-decoration: none;
 }
 
 #menu a:hover {
   color: #8ca9d3;
 }
 
+/** about section**/
 .topnav-menu,
 h1 {
   font-family: "chango";
 }
+
 h2 {
   font-size: 250%;
 }
@@ -51,6 +54,11 @@ h2 {
 .about-work {
   background-color: #fedd89;
 }
+.work-details > a {
+  color: #31383f;
+}
+
+/** footer**/
 
 footer {
   height: 100px;
@@ -78,10 +86,6 @@ footer {
     height: 200px;
   }
 
-  a {
-    text-decoration: none;
-  }
-
   #menu > li {
     padding: 10px;
   }
@@ -94,5 +98,42 @@ footer {
 
   footer {
     margin: 0% 1%;
+  }
+}
+
+@media only screen and (min-width: 393px) {
+  #menu > li {
+    text-align: left;
+    display: inline;
+    padding: 18px;
+    font-size: 16px;
+  }
+  header {
+    height: 120px;
+  }
+  .topnav-menu {
+    background-color: #f2e9eb;
+    height: 210px;
+    padding: 38px;
+  }
+
+  #about-sec {
+    height: 280px;
+  }
+  .about-container {
+    padding: 50px;
+    padding: 57px;
+    text-align: center;
+  }
+  .about-work {
+    height: 330px;
+  }
+  #work-topic {
+    text-align: center;
+    padding: 20px;
+  }
+  .work-container {
+    padding: 27px;
+    font-size: 22px;
   }
 }
