@@ -159,3 +159,15 @@ footer {
     font-size: 65px;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  #about-sec {
+    height: 390px;
+  }
+  .about-work {
+    height: 460px;
+  }
+  .work-container {
+    font-size: 35px;
+  }
+}
