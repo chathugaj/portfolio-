@@ -131,13 +131,21 @@ footer {
     height: 210px;
     padding: 38px;
   }
+  section > div {
+    margin: 0px 6px 0px;
+  }
+  div > p {
+    padding: 14px;
+  }
+  h1 {
+    padding-left: 14px;
+  }
 
   #about-sec {
     height: 280px;
   }
   .about-container {
-    padding: 50px;
-    padding: 57px;
+    padding: 4px;
   }
   .about-work {
     height: 330px;
