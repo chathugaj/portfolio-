@@ -16,6 +16,10 @@ body {
   font-size: 100%;
 }
 
+body > section {
+  height: auto;
+}
+
 hr {
   border-top: 1px solid #31383f;
   width: 100%;
@@ -44,6 +48,7 @@ a {
 h1 {
   font-family: "chango";
 }
+
 h1 {
   padding-left: 20px;
 }
@@ -65,8 +70,9 @@ h2 {
 }
 
 section > div {
-  margin: 0px 120px 0px;
+  margin: 0px 120px;
 }
+
 div > p {
   padding: 20px;
 }
@@ -89,6 +95,7 @@ footer {
   font-size: 160%;
   padding: 5px;
 }
+
 /*media quries*/
 @media only screen and (max-width: 393px) {
   .topnav-menu {
@@ -97,7 +104,7 @@ footer {
   }
 
   section > div {
-    margin: 0px 14px 0px;
+    margin: 0px 30px;
   }
 
   #menu > li {
@@ -129,11 +136,13 @@ footer {
   .topnav-menu {
     background-color: #f2e9eb;
     height: 210px;
-    padding: 38px;
+    padding: 28px;
+    text-align: center;
   }
   section > div {
-    margin: 0px 6px 0px;
+    margin: 0px 30px;
   }
+
   div > p {
     padding: 14px;
   }
@@ -141,15 +150,10 @@ footer {
     padding-left: 14px;
   }
 
-  #about-sec {
-    height: 280px;
-  }
   .about-container {
     padding: 4px;
   }
-  .about-work {
-    height: 330px;
-  }
+
   #work-topic {
     text-align: center;
     padding: 20px;
@@ -163,6 +167,13 @@ footer {
 @media only screen and (min-width: 600px) {
   nav {
     text-align: center;
+  }
+
+  section > div {
+    margin: 0px 60px;
+  }
+  p {
+    font-size: 22px;
   }
 }
 
@@ -180,28 +191,15 @@ footer {
     font-size: 65px;
   }
   section > div {
-    margin: 0px 120px 0px;
+    margin: 0px 120px;
   }
 
   .about-container {
     margin: 0px 120px 0px;
   }
-  .about-work {
-    height: 410px;
-  }
-
-  #about-sec {
-    height: 478px;
-  }
 }
 
 @media only screen and (min-width: 1200px) {
-  #about-sec {
-    height: 500px;
-  }
-  .about-work {
-    height: 460px;
-  }
   .work-container {
     font-size: 35px;
   }
