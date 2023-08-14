@@ -41,6 +41,7 @@ a {
 }
 #menu a:hover {
   color: #8ca9d3;
+  cursor: pointer;
 }
 
 /** about section**/
@@ -55,6 +56,10 @@ h1 {
 
 h2 {
   font-size: 250%;
+}
+.work-details > a:hover {
+  color: #dd8ea4;
+  cursor: pointer;
 }
 
 #about-sec,
@@ -75,6 +80,14 @@ section > div {
 
 div > p {
   padding: 20px;
+}
+
+span {
+  color: #dd8ea4;
+}
+
+.social-link {
+  color: #dd8ea4;
 }
 
 /** footer**/
