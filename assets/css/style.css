@@ -32,7 +32,7 @@ a {
 /**navigation**/
 #menu a {
   text-decoration: none;
-  color: #dd8ea4;
+  color: #31383f;
   text-decoration: none;
 }
 #menu > li {
@@ -40,7 +40,7 @@ a {
   display: inline;
 }
 #menu a:hover {
-  color: #8ca9d3;
+  color: #ee794b;
   cursor: pointer;
 }
 
@@ -58,17 +58,17 @@ h2 {
   font-size: 250%;
 }
 .work-details > a:hover {
-  color: #dd8ea4;
+  color: ;
   cursor: pointer;
 }
 
 #about-sec,
 .topnav-menu {
-  background-color: #f2e9eb;
+  background-color: #f2f2f2;
 }
 
 .about-work {
-  background-color: #fedd89;
+  background-color: rgb(130, 175, 182, 0.5);
 }
 .work-details > a {
   color: #31383f;
@@ -83,18 +83,18 @@ div > p {
 }
 
 span {
-  color: #dd8ea4;
+  color: #e3612e;
 }
 
 .social-link {
-  color: #dd8ea4;
+  color: #e3612e;
 }
 
 /** footer**/
 
 footer {
   height: 100px;
-  background-color: #8ca9d3;
+  background-color: #e09d83;
 }
 .social-networks {
   text-align: center;
@@ -104,7 +104,7 @@ footer {
   display: inline;
 }
 .social-networks i {
-  color: #fedd89;
+  color: #31383f;
   font-size: 160%;
   padding: 5px;
 }
@@ -147,7 +147,6 @@ footer {
     height: 120px;
   }
   .topnav-menu {
-    background-color: #f2e9eb;
     height: 210px;
     padding: 28px;
     text-align: center;
