@@ -48,6 +48,7 @@ a {
 .topnav-menu,
 h1 {
   font-family: "chango";
+  color: #ee794b;
 }
 
 h1 {
@@ -94,7 +95,7 @@ span {
 
 footer {
   height: 100px;
-  background-color: #e09d83;
+  background-color: #e3612e;
 }
 .social-networks {
   text-align: center;
@@ -104,7 +105,7 @@ footer {
   display: inline;
 }
 .social-networks i {
-  color: #31383f;
+  color: #f2f2f2;
   font-size: 160%;
   padding: 5px;
 }
